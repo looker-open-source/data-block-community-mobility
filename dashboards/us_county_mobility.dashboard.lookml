@@ -1,4 +1,5 @@
 - dashboard: us_county_dashboard
+  preferred_viewer: dashboards-next
   title: US County Dashboard
   layout: newspaper
   elements:

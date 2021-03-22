@@ -1,4 +1,5 @@
 - dashboard: us_state_dashboard
+  preferred_viewer: dashboards-next
   title: US State Dashboard
   layout: newspaper
   elements:

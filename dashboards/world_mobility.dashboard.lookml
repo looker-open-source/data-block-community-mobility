@@ -1,4 +1,5 @@
 - dashboard: country_dashboard
+  preferred_viewer: dashboards-next
   title: Country Dashboard
   layout: newspaper
   elements:
