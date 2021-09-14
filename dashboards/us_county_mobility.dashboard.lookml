@@ -5,7 +5,7 @@
   elements:
   - title: Workplace Time vs. Baseline
     name: Workplace Time vs Baseline
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_map
     fields: [mobility.workplaces_dynamic, mobility.sub_region_2_fips]
@@ -49,7 +49,7 @@
     height: 9
   - title: Residential Time vs. Baseline
     name: Residential Time vs Baseline
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_map
     fields: [mobility.residential_dynamic, mobility.sub_region_2_fips]
@@ -94,7 +94,7 @@
     height: 9
   - title: Grocery and Pharmacy
     name: Grocery and Pharmacy
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.mobility_date, mobility.grocery_and_pharmacy_dynamic, mobility.sub_region_2]
@@ -259,7 +259,7 @@
     height: 7
   - title: Parks
     name: Parks
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.mobility_date, mobility.parks_dynamic, mobility.sub_region_2]
@@ -407,7 +407,7 @@
     height: 7
   - title: Residential
     name: Residential
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.mobility_date, mobility.residential_dynamic, mobility.sub_region_2]
@@ -559,7 +559,7 @@
     height: 7
   - title: Retail and Recreation
     name: Retail and Recreation
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.retail_and_recreation_dynamic, mobility.mobility_date, mobility.sub_region_2]
@@ -728,7 +728,7 @@
     height: 7
   - title: Transit Stations
     name: Transit Stations
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.mobility_date, mobility.transit_stations_dynamic, mobility.sub_region_2]
@@ -887,7 +887,7 @@
     height: 7
   - title: Workplaces
     name: Workplaces
-    model: mobility
+    model: mobility_v2
     explore: mobility
     type: looker_line
     fields: [mobility.workplaces_dynamic, mobility.mobility_date, mobility.sub_region_2]
@@ -1058,7 +1058,7 @@
     default_value: New York,Texas,California
     allow_multiple_values: true
     required: false
-    model: mobility
+    model: mobility_v2
     explore: mobility
     listens_to_filters: []
     field: mobility.sub_region_1
@@ -1068,7 +1068,7 @@
     default_value: Kings County,New York County,Rensselaer County,Erie County
     allow_multiple_values: true
     required: false
-    model: mobility
+    model: mobility_v2
     explore: mobility
     listens_to_filters: []
     field: mobility.sub_region_2
@@ -1078,7 +1078,7 @@
     default_value: mov^_avg
     allow_multiple_values: true
     required: false
-    model: mobility
+    model: mobility_v2
     explore: mobility
     listens_to_filters: []
     field: mobility.daily_or_avg
