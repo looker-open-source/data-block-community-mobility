@@ -1,17 +1,8 @@
-include: "//@{CONFIG_PROJECT_NAME}/mobility.view.lkml"
-
-view: mobility_data {
-  extends: [mobility_data_config]
-}
-
-# ###################################################
-
-
 # This derived table selects everything from mobility data, then joins it to the state and county data for the US
 
 # This file contains logic to make sure that this mobility data is not aggregated in problematic ways.
 
-view: mobility_data_core {
+view: mobility_data {
   derived_table: {
     datagroup_trigger: mobility_data
     sql:  SELECT
