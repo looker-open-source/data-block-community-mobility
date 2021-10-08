@@ -14,7 +14,7 @@
   },
   "models": [
     {
-      "name": "mobility",
+      "name": "mobility_v2",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
